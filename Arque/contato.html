@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquê</title>
+    <link rel="shotcut icon" href="imagens/icone.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type= "text/css" href="estilos.css">
+</head>
+
+    
+
+<body>
+  
+    <header id="cabecalho">
+        <div id="botao" class="hide"><a href="#" onclick="onOff()"><img  id="cardapio" src="./imagens/cardapio.png" alt="menu" width="30" height="30"></a></div>
+        <div id="arquitetura">
+        <p ><img id="logo" src="./imagens/logo.png" alt="logo" width="300" height="250" > </p>
+        <h1>Arquitetura e Interiores</h1>
+        </div>
+        
+       
+    </header>
+
+   <div id="modal" class="hide">
+
+    <nav id="menu">
+        <h2> Menu principal</h2> 
+        <ul>
+            
+            <li> <a href="principal.html"> Principal</a> </li>
+            <li> <a href="projeto.html"> Projetos</a></li>
+            <li> <a href="contato.html"> Contato</a></li>
+       </ul> 
+      </nav> 
+      
+
+   </div>
+   <section class="cotato">
+       <h1>Contato</h1>
+       <h2>Fale conosco</h2>
+       <p>Telefone: (22) 9900050500</p>
+       <p>E-mail: ljkbhcslbs@klcnbsknc.com</p>
+       <p>Endereço: Rua lxsmjlmxlmasxol </p>
+       <h2>Envie sua mensagem</h2>
+   </section>
+
+
+   
+    <Form   action="https://formspree.io/xbjavogg" method="POST" >
+       
+        <div class="inputText">
+            <label for="title">Nome:</label>
+            <input type="text" name="title" required>    
+        </div>
+
+        <div class="inputText">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" required>
+        </div>
+
+        <div class="inputText">
+            <label for="telefone">Telefone: </label>
+            <input type="tel" name="telefone"required>
+        </div>
+
+        <div class="mensagem">
+            <label for="description"> Mensagem :</label>
+            <textarea name="description" cols="50" rows="10" placeholder="Escreva aqui a sua duvida ou solicitação !! ❤️" required></textarea>
+           
+            <button class="enviar"type="submit" >Enviar</button>
+        </div>
+
+    </Form>
+
+
+ 
+
+</body>
+<div id="rodape">
+<p>Instagram : <a href="https://www.instagram.com/arque_arq/" target="_blank"> <img  id="redesocial" src="./imagens/insta.png" alt="Instagram" width="50" height="50" ></a></p>
+<p>Facebook : <a href="https://facebook.com/arquearquitetura/" target="_blank"> <img id="redesocial" src="./imagens/face.png" alt="Instagram"width="50" height="50" ></a> </p>
+<footer>
+    Com ❤️ Victor Hugo Fuly
+</footer>
+</div>
+<script src="script.js"> </script>
+<script src="email.js"> </script>
+
+</html>

@@ -1,0 +1,292 @@
+@charset "UTF-8";
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+#cabecalho{
+    
+    
+    background-image: url('imagens/background.jpg');
+    
+    margin: -8px -8px -8px;
+    padding: 5px;
+    box-shadow: 5px 5px 4px 3px black;
+    
+}
+img#logo{
+    display: block;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+img#logo{
+   
+    margin-top: 20px;
+  justify-self: end;
+}
+
+body{
+  background-color: #d0d0d0;;
+ color: black; 
+ font:14pt; 
+ 
+}
+.projetos{
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+    
+}
+#quemsomos{
+    margin-top: 25px;
+    text-align: center;
+}
+div#arquitetura{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    margin-left: -200px;
+    
+}
+
+#arquitetura h1{
+    margin-top: 140px;
+    margin-left: -50px;
+    color: white;
+
+}
+
+p#texto{
+    
+ text-indent: 50px;
+ position: absolute;
+
+ left: 40%;
+
+ top: 500px;
+ font-size: 16pt;
+ 
+}
+
+#sobre{
+    right: 0;
+    left: 0;
+}
+figure.foto{
+    display: flex;
+    position: relative;
+    
+    
+
+}
+figure.foto img{
+    
+    display: block;
+    margin-top: 5px;
+   
+    
+    border: 6px solid white;
+    box-shadow: 1px 1px 4px black;
+
+}
+figure.foto figcaption{
+ position: absolute ;
+ 
+ top:15px;
+ background-color: rgba(0, 0, 0,0.4);
+ color: white;
+ padding: 10px;
+ font-size: 10pt;
+ left: 30px;
+
+}
+
+div#botao:hover{
+    background:rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: -10px;
+    width: 30px;
+    
+}
+div#botao{
+    background:rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: -10px;
+    width: 30px;
+    
+}
+
+#botao.hide {
+    background:rgba(0, 0, 0, 0.0);
+}
+nav#menu {
+    display:inline-block;
+    
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    right: 0;
+    left: 0;
+}
+nav#menu li{
+    display: inline-block;
+    
+   margin-top: 10px;
+    padding: 10px;
+    
+    width: 150px;
+   
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+nav#menu li:hover,
+nav#menu li a:hover{
+    
+    background-color: rgba(0, 0, 0 );
+    color: white;
+}
+nav#menu li a{
+    text-decoration: none;
+    color:rgb(226, 12, 12);
+
+}
+
+nav#menu h2{
+    display: none;
+
+}
+#slide{
+
+ margin-left: -8px;
+ margin-right: -8px;
+ 
+ 
+ 
+}
+#id{
+    max-width: 98.75vw;
+    max-height: 100vh;
+
+    display: flex;
+    margin-top: 5px;
+    margin-left:auto;
+    margin-right: auto; 
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 4px black;
+    transition: 400ms;
+
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+#modal.hide {
+    opacity: 0;
+    visibility: hidden;
+    transition: 400ms;
+}
+
+#modal{
+    background:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    color: white;
+    top:49px;
+    
+    
+    
+    left: 0;
+    width: 250px;
+    align-content: center;
+    justify-content: center;
+
+}
+#rodape{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    background-image: url('imagens/background.jpg');
+    margin: -8px ;
+    margin-bottom: -10px;
+    padding: 5px;
+    
+}
+
+#redesocial{
+
+    position: relative;
+    top: 15px;
+}
+footer{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.inputText{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin: 20px;
+    
+}
+.mensagem{
+    display: grid;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin: 20px;
+}
+.inputText label,
+.mensagem label {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15;
+
+}
+
+.inputText input {
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0,0.2);
+}
+
+.mensagem textarea {
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0,0.2);
+}
+
+form .enviar {
+    margin:20px auto ;
+    margin-left: 50%;
+    border-radius: 6px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0,0.1);
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background:rgb(226, 115, 12);
+    transition: opacity 0.2s;
+}
+form .enviar:hover{
+    opacity: 0.8;
+}
+.cotato{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.slider-projetos img{
+    margin: 10px;
+    max-width: 480px;
+    max-height: 220px;
+}
